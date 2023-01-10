@@ -1,0 +1,878 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "badge": "2",
+      "badgeClass": "badge badge-light-warning badge-pill ml-auto mr-1",
+      "icon": "home",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "tema/dashboard/analytics",
+          "name": "Analytics",
+          "icon": "circle",
+          "slug": "dashboard-analytics"
+        },
+        {
+          "url": "tema//",
+          "name": "eCommerce",
+          "icon": "circle",
+          "slug": "dashboard-ecommerce"
+        }
+      ]
+    },
+
+    {
+      "navheader": "Apps & Pages",
+      "slug": ""
+    },
+    {
+      "url": "tema/app/email",
+      "name": "Email",
+      "icon": "mail",
+      "slug": "app-email"
+    },
+    {
+      "url": "tema/app/chat",
+      "name": "Chat",
+      "icon": "message-square",
+      "slug": "app-chat"
+    },
+    {
+      "url": "tema/app/todo",
+      "name": "Todo",
+      "icon": "check-square",
+      "slug": "app-todo"
+    },
+    {
+      "url": "tema/app/calendar",
+      "name": "Calendar",
+      "icon": "calendar",
+      "slug": "app-calendar"
+    },
+    {
+      "url": "tema/app/kanban",
+      "name": "Kanban",
+      "icon": "grid",
+      "slug": "app-kanban"
+    },
+    {
+      "name": "Invoice",
+      "icon": "file-text",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "tema/app/invoice/list",
+          "name": "List",
+          "icon": "circle",
+          "slug": "app-invoice-list"
+        },
+        {
+          "url": "tema/app/invoice/preview",
+          "name": "Preview",
+          "icon": "circle",
+          "slug": "app-invoice-preview"
+        },
+        {
+          "url": "tema/app/invoice/edit",
+          "name": "Edit",
+          "icon": "circle",
+          "slug": "app-invoice-edit"
+        },
+        {
+          "url": "tema/app/invoice/add",
+          "name": "Add",
+          "icon": "circle",
+          "slug": "app-invoice-add"
+        }
+      ]
+    },
+    {
+      "url": "tema/app/file-manager",
+      "name": "File Manager",
+      "icon": "save",
+      "slug": "app-file-manager"
+    },
+    {
+      "name": "eCommerce",
+      "icon": "shopping-cart",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "tema/app/ecommerce/shop",
+          "name": "Shop",
+          "icon": "circle",
+          "slug": "app-ecommerce-shop"
+        },
+        {
+          "url": "tema/app/ecommerce/details",
+          "name": "Details",
+          "icon": "circle",
+          "slug": "app-ecommerce-details"
+        },
+        {
+          "url": "tema/app/ecommerce/wishlist",
+          "name": "Wish List",
+          "icon": "circle",
+          "slug": "app-ecommerce-wishlist"
+        },
+        {
+          "url": "tema/app/ecommerce/checkout",
+          "name": "Checkout",
+          "icon": "circle",
+          "slug": "app-ecommerce-checkout"
+        }
+      ]
+    },
+    {
+      "name": "User",
+      "icon": "user",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "tema/app/user/list",
+          "name": "List",
+          "icon": "circle",
+          "slug": "app-user-list"
+        },
+        {
+          "url": "tema/app/user/view",
+          "name": "View",
+          "icon": "circle",
+          "slug": "app-user-view"
+        },
+        {
+          "url": "tema/app/user/edit",
+          "name": "Edit",
+          "icon": "circle",
+          "slug": "app-user-edit"
+        }
+      ]
+    },
+    {
+      "name": "Pages",
+      "icon": "file-text",
+      "slug": "",
+      "submenu": [
+        {
+          "name": "Authentication",
+          "icon": "circle",
+          "slug": "",
+          "submenu": [
+            {
+              "url": "tema/auth/login-v1",
+              "name": "Login v1",
+              "slug": "auth-login-v1",
+              "newTab": true
+            },
+            {
+              "url": "tema/auth/login-v2",
+              "name": "Login v2",
+              "slug": "auth-login-v2",
+              "newTab": true
+            },
+            {
+              "url": "tema/auth/register-v1",
+              "name": "Register v1",
+              "slug": "auth-register-v1",
+              "newTab": true
+            },
+            {
+              "url": "tema/auth/register-v2",
+              "name": "Register v2",
+              "slug": "auth-register-v2",
+              "newTab": true
+            },
+            {
+              "url": "tema/auth/forgot-password-v1",
+              "name": "Forgot Password v1",
+              "slug": "auth-forgot-password-v1",
+              "newTab": true
+            },
+            {
+              "url": "tema/auth/forgot-password-v2",
+              "name": "Forgot Password v2",
+              "slug": "auth-forgot-password-v2",
+              "newTab": true
+            },
+            {
+              "url": "tema/auth/reset-password-v1",
+              "name": "Reset Password v1",
+              "slug": "auth-reset-password-v1",
+              "newTab": true
+            },
+            {
+              "url": "tema/auth/reset-password-v2",
+              "name": "Reset Password v2",
+              "slug": "auth-reset-password-v2",
+              "newTab": true
+            }
+          ]
+        },
+        {
+          "url": "tema/page/account-settings",
+          "name": "Account Settings",
+          "icon": "circle",
+          "slug": "page-account-settings"
+        },
+        {
+          "url": "tema/page/profile",
+          "name": "Profile",
+          "icon": "circle",
+          "slug": "page-profile"
+        },
+        {
+          "url": "tema/page/faq",
+          "name": "FAQ",
+          "icon": "circle",
+          "slug": "page-faq"
+        },
+        {
+          "url": "tema/page/knowledge-base",
+          "name": "Knowledge Base",
+          "icon": "circle",
+          "slug": "page-knowledge-base"
+        },
+        {
+          "url": "tema/page/pricing",
+          "name": "Pricing",
+          "icon": "circle",
+          "slug": "page-pricing"
+        },
+        {
+          "name": "Blog",
+          "icon": "circle",
+          "slug": "",
+          "submenu": [
+            { "url": "tema/page/blog/list", "name": "List", "slug": "page-blog-list" },
+            { "url": "tema/page/blog/detail", "name": "Detail", "slug": "page-blog-detail" },
+            { "url": "tema/page/blog/edit", "name": "Edit", "slug": "page-blog-edit" }
+          ]
+        },
+        {
+          "name": "Mail Template",
+          "icon": "circle",
+          "slug": "",
+          "submenu": [
+            {
+              "name": "Welcome",
+              "slug": "mail-welcome",
+              "url": "tema/https://pixinvent.com/demo/vuexy-mail-template/mail-welcome.html",
+              "newTab": true
+            },
+            {
+              "name": "Reset Password",
+              "slug": "mail-forgot",
+              "url": "tema/https://pixinvent.com/demo/vuexy-mail-template/mail-reset-password.html",
+              "newTab": true
+            },
+            {
+              "name": "Verify Email",
+              "slug": "mail-verify",
+              "url": "tema/https://pixinvent.com/demo/vuexy-mail-template/mail-verify-email.html",
+              "newTab": true
+            },
+            {
+              "name": "Deactivate Account",
+              "slug": "mail-deactivate",
+              "url": "tema/https://pixinvent.com/demo/vuexy-mail-template/mail-deactivate-account.html",
+              "newTab": true
+            },
+            {
+              "name": "Invoice",
+              "slug": "mail-invoice",
+              "url": "tema/https://pixinvent.com/demo/vuexy-mail-template/mail-invoice.html",
+              "newTab": true
+            },
+            {
+              "name": "Promotional",
+              "slug": "mail-promotional",
+              "url": "tema/https://pixinvent.com/demo/vuexy-mail-template/mail-promotional.html",
+              "newTab": true
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "icon": "circle",
+          "slug": "",
+          "submenu": [
+            {
+              "url": "tema/page/coming-soon",
+              "name": "Coming Soon",
+              "slug": "misc-analytics",
+              "newTab": true
+            },
+            {
+              "url": "tema/page/not-authorized",
+              "name": "Not Authorized",
+              "slug": "misc-analytics",
+              "newTab": true
+            },
+            {
+              "url": "tema/page/maintenance",
+              "name": "Maintenance",
+              "slug": "misc-analytics",
+              "newTab": true
+            },
+            {
+              "url": "tema/error",
+              "name": "Error",
+              "slug": "error",
+              "newTab": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "navheader": "User Interface",
+      "slug": ""
+    },
+    {
+      "url": "tema/ui/typography",
+      "name": "Typography",
+      "icon": "type",
+      "slug": "ui-typography"
+    },
+    {
+      "url": "tema/ui/colors",
+      "name": "Colors",
+      "icon": "droplet",
+      "slug": "ui-colors"
+    },
+    {
+      "url": "tema/icons/feather",
+      "name": "Feather",
+      "icon": "eye",
+      "slug": "icons-feather"
+    },
+    {
+      "name": "Card",
+      "icon": "credit-card",
+      "badge": "New",
+      "slug": "",
+      "badgeClass": "badge badge-light-success badge-pill ml-auto mr-1",
+      "submenu": [
+        {
+          "url": "tema/card/basic",
+          "name": "Basic",
+          "icon": "circle",
+          "slug": "card-basic"
+        },
+        {
+          "url": "tema/card/advance",
+          "name": "Advance",
+          "icon": "circle",
+          "slug": "card-advance"
+        },
+        {
+          "url": "tema/card/statistics",
+          "name": "Statistics",
+          "icon": "circle",
+          "slug": "card-statistics"
+        },
+        {
+          "url": "tema/card/analytics",
+          "name": "Analytics",
+          "icon": "circle",
+          "slug": "card-analytics"
+        },
+        {
+          "url": "tema/card/actions",
+          "name": "Card Actions",
+          "icon": "circle",
+          "slug": "card-actions"
+        }
+      ]
+    },
+    {
+      "name": "Components",
+      "icon": "briefcase",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "tema/component/alert",
+          "name": "Alerts",
+          "icon": "circle",
+          "slug": "component-alert"
+        },
+        {
+          "url": "tema/component/avatar",
+          "name": "Avatar",
+          "icon": "circle",
+          "slug": "component-avatar"
+        },
+        {
+          "url": "tema/component/badges",
+          "name": "Badges",
+          "icon": "circle",
+          "slug": "component-badges"
+        },
+        {
+          "url": "tema/component/breadcrumbs",
+          "name": "Breadcrumbs",
+          "icon": "circle",
+          "slug": "component-breadcrumbs"
+        },
+        {
+          "url": "tema/component/buttons",
+          "name": "Buttons",
+          "icon": "circle",
+          "slug": "component-buttons"
+        },
+        {
+          "url": "tema/component/carousel",
+          "name": "Carousel",
+          "icon": "circle",
+          "slug": "component-carousel"
+        },
+        {
+          "url": "tema/component/collapse",
+          "name": "Collapse",
+          "icon": "circle",
+          "slug": "component-collapse"
+        },
+        {
+          "url": "tema/component/divider",
+          "name": "Divider",
+          "icon": "circle",
+          "slug": "component-divider"
+        },
+        {
+          "url": "tema/component/dropdowns",
+          "name": "Dropdowns",
+          "icon": "circle",
+          "slug": "component-dropdowns"
+        },
+        {
+          "url": "tema/component/list-group",
+          "name": "List Group",
+          "icon": "circle",
+          "slug": "component-list-group"
+        },
+        {
+          "url": "tema/component/media-objects",
+          "name": "Media Objects",
+          "icon": "circle",
+          "slug": "component-media-objects"
+        },
+        {
+          "url": "tema/component/modals",
+          "name": "Modals",
+          "icon": "circle",
+          "slug": "component-modals"
+        },
+        {
+          "url": "tema/component/navs",
+          "name": "Navs Component",
+          "icon": "circle",
+          "slug": "component-navs"
+        },
+        {
+          "url": "tema/component/pagination",
+          "name": "Pagination",
+          "icon": "circle",
+          "slug": "component-pagination"
+        },
+        {
+          "url": "tema/component/pill-badges",
+          "name": "Pill Badges",
+          "icon": "circle",
+          "slug": "component-pill-badges"
+        },
+        {
+          "url": "tema/component/pills",
+          "name": "Pills Component",
+          "icon": "circle",
+          "slug": "component-pills"
+        },
+        {
+          "url": "tema/component/popovers",
+          "name": "Popovers",
+          "icon": "circle",
+          "slug": "component-popovers"
+        },
+        {
+          "url": "tema/component/progress",
+          "name": "Progress",
+          "icon": "circle",
+          "slug": "component-progress"
+        },
+        {
+          "url": "tema/component/spinner",
+          "name": "Spinner",
+          "icon": "circle",
+          "slug": "component-spinner"
+        },
+        {
+          "url": "tema/component/tabs",
+          "name": "Tabs Component",
+          "icon": "circle",
+          "slug": "component-tabs"
+        },
+        {
+          "url": "tema/component/timeline",
+          "name": "Timeline",
+          "icon": "circle",
+          "slug": "component-timeline"
+        },
+        {
+          "url": "tema/component/toast",
+          "name": "Toasts",
+          "icon": "circle",
+          "slug": "component-toast"
+        },
+        {
+          "url": "tema/component/tooltips",
+          "name": "Tooltips",
+          "icon": "circle",
+          "slug": "component-tooltips"
+        }
+      ]
+    },
+    {
+      "name": "Extensions",
+      "icon": "box",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "tema/ext-component/sweet-alerts",
+          "name": "Sweet Alert",
+          "icon": "circle",
+          "slug": "ext-component-sweet-alerts"
+        },
+        {
+          "url": "tema/ext-component/block-ui",
+          "name": "BlockUI",
+          "icon": "circle",
+          "slug": "ext-component-block-ui"
+        },
+        {
+          "url": "tema/ext-component/toastr",
+          "name": "Toastr",
+          "icon": "circle",
+          "slug": "ext-component-toastr"
+        },
+        {
+          "url": "tema/ext-component/slider",
+          "name": "Slider",
+          "icon": "circle",
+          "slug": "ext-component-slider"
+        },
+        {
+          "url": "tema/ext-component/drag-drop",
+          "name": "Drag & Drop",
+          "icon": "circle",
+          "slug": "ext-component-drag-drop"
+        },
+        {
+          "url": "tema/ext-component/tour",
+          "name": "Tour",
+          "icon": "circle",
+          "slug": "ext-component-tour"
+        },
+        {
+          "url": "tema/ext-component/clipboard",
+          "name": "Clipboard",
+          "icon": "circle",
+          "slug": "ext-component-clipboard"
+        },
+        {
+          "url": "tema/ext-component/plyr",
+          "name": "Media Player",
+          "icon": "circle",
+          "slug": "ext-component-plyr"
+        },
+        {
+          "url": "tema/ext-component/context-menu",
+          "name": "Context Menu",
+          "icon": "circle",
+          "slug": "ext-component-context-menu"
+        },
+        {
+          "url": "tema/ext-component/swiper",
+          "name": "Swiper",
+          "icon": "circle",
+          "slug": "ext-component-swiper"
+        },
+        {
+          "url": "tema/ext-component/tree",
+          "name": "Tree",
+          "icon": "circle",
+          "slug": "ext-component-tree"
+        },
+        {
+          "url": "tema/ext-component/ratings",
+          "name": "Ratings",
+          "icon": "circle",
+          "slug": "ext-component-ratings"
+        },
+        {
+          "url": "tema/ext-component/locale",
+          "name": "Locale",
+          "icon": "circle",
+          "slug": "ext-component-locale"
+        }
+      ]
+    },
+    {
+      "name": "Page Layouts",
+      "icon": "layout",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "tema/page-layouts/collapsed-menu",
+          "name": "Collapsed Menu",
+          "icon": "circle",
+          "slug": "layout-collapsed-menu"
+        },
+        {
+          "url": "tema/page-layouts/boxed",
+          "name": "Layout Boxed",
+          "icon": "circle",
+          "slug": "layout-boxed"
+        },
+        {
+          "url": "tema/page-layouts/without-menu",
+          "name": "Without Menu",
+          "icon": "circle",
+          "slug": "layout-without-menu"
+        },
+        {
+          "url": "tema/page-layouts/empty",
+          "name": "Layout Empty",
+          "icon": "circle",
+          "slug": "layout-empty"
+        },
+        {
+          "url": "tema/page-layouts/blank",
+          "name": "Layout Blank",
+          "icon": "circle",
+          "slug": "layout-blank"
+        }
+      ]
+    },
+    {
+      "navheader": "Forms & Tables",
+      "slug": ""
+    },
+    {
+      "name": "Form Elements",
+      "icon": "copy",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "tema/form/input",
+          "name": "Input",
+          "icon": "circle",
+          "slug": "form-input"
+        },
+        {
+          "url": "tema/form/input-groups",
+          "name": "Input Groups",
+          "icon": "circle",
+          "slug": "form-input-groups"
+        },
+        {
+          "url": "tema/form/input-mask",
+          "name": "Input Mask",
+          "icon": "circle",
+          "slug": "form-input-mask"
+        },
+        {
+          "url": "tema/form/textarea",
+          "name": "Textarea",
+          "icon": "circle",
+          "slug": "form-textarea"
+        },
+        {
+          "url": "tema/form/checkbox",
+          "name": "Checkbox",
+          "icon": "circle",
+          "slug": "form-checkbox"
+        },
+        {
+          "url": "tema/form/radio",
+          "name": "Radio",
+          "icon": "circle",
+          "slug": "form-radio"
+        },
+        {
+          "url": "tema/form/switch",
+          "name": "Switch",
+          "icon": "circle",
+          "slug": "form-switch"
+        },
+        {
+          "url": "tema/form/select",
+          "name": "Select",
+          "icon": "circle",
+          "slug": "form-select"
+        },
+        {
+          "url": "tema/form/number-input",
+          "name": "Number Input",
+          "icon": "circle",
+          "slug": "form-number-input"
+        },
+        {
+          "url": "tema/form/file-uploader",
+          "name": "File Uploader",
+          "icon": "circle",
+          "slug": "form-file-uploader"
+        },
+        {
+          "url": "tema/form/quill-editor",
+          "name": "Quill Editor",
+          "icon": "circle",
+          "slug": "form-quill-editor"
+        },
+        {
+          "url": "tema/form/date-time-picker",
+          "name": "Date & Time Picker",
+          "icon": "circle",
+          "slug": "form-date-time-picker"
+        }
+      ]
+    },
+    {
+      "url": "tema/form/layout",
+      "name": "Form Layout",
+      "icon": "box",
+      "slug": "form-layout"
+    },
+    {
+      "url": "tema/form/wizard",
+      "name": "Form Wizard",
+      "icon": "package",
+      "slug": "form-wizard"
+    },
+    {
+      "url": "tema/form/validation",
+      "name": "Form Validation",
+      "icon": "check-circle",
+      "slug": "form-validation"
+    },
+    {
+      "url": "tema/form/repeater",
+      "name": "Form Repeater",
+      "icon": "rotate-cw",
+      "slug": "form-repeater"
+    },
+    {
+      "url": "tema/table",
+      "name": "Table",
+      "icon": "server",
+      "slug": "table"
+    },
+    {
+      "name": "Datatable",
+      "icon": "grid",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "tema/table/datatable/basic",
+          "name": "Basic",
+          "icon": "circle",
+          "slug": "datatable-basic"
+        },
+        {
+          "url": "tema/table/datatable/advance",
+          "name": "Advanced",
+          "icon": "circle",
+          "slug": "datatable-advance"
+        }
+      ]
+    },
+    {
+      "url": "tema/table/ag-grid",
+      "name": "agGrid Table",
+      "icon": "grid",
+      "slug": "ag-grid"
+    },
+
+    {
+      "navheader": "Charts & Maps",
+      "slug": ""
+    },
+    {
+      "name": "Charts",
+      "icon": "pie-chart",
+      "badge": "2",
+      "slug": "",
+      "badgeClass": "badge badge-pill badge-light-danger ml-auto mr-1",
+      "submenu": [
+        {
+          "url": "tema/chart/apex",
+          "name": "Apex",
+          "icon": "circle",
+          "slug": "chart-apex"
+        },
+        {
+          "url": "tema/chart/chartjs",
+          "name": "Chartjs",
+          "icon": "circle",
+          "slug": "chart-chartjs"
+        }
+      ]
+    },
+    {
+      "url": "tema/maps/leaflet",
+      "name": "Leaflet Maps",
+      "icon": "map",
+      "slug": "map-leaflet"
+    },
+    {
+      "navheader": "Misc",
+      "slug": ""
+    },
+    {
+      "name": "Menu Levels",
+      "icon": "menu",
+      "slug": "",
+      "submenu": [
+        {
+          "name": "Second Level 2.1",
+          "icon": "circle",
+          "slug": "menu-level"
+        },
+        {
+          "name": "Second Level 2.2",
+          "icon": "circle",
+          "slug": "",
+          "submenu": [
+            {
+              "name": "Third Level 3.1",
+              "slug": "menu-level"
+            },
+            {
+              "name": "Third Level 3.2",
+              "slug": "menu-level"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disabled Menu",
+      "icon": "eye-off",
+      "classlist": "disabled",
+      "slug": "menu-disabled"
+    },
+    {
+      "url": "tema/https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation/documentation-laravel-folder-structure.html",
+      "name": "Documentation",
+      "icon": "folder",
+      "slug": "documentation",
+      "newTab": true
+    },
+    {
+      "url": "tema/https://pixinvent.ticksy.com/",
+      "name": "Raise Support",
+      "icon": "life-buoy",
+      "slug": "raise-support",
+      "newTab": true
+    }
+  ]
+}

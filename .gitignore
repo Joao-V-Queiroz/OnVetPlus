@@ -1,0 +1,14 @@
+/node_modules
+/storage/*.key
+/vendor
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/vuexy-shell-scripts
+supervisord.log
+supervisord.pid
+docker-compose.yml
+Dockerfile
+db_data/
